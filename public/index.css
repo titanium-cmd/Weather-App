@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    height: 100vh;
+    display: flex;
+}
+main > section{
+    background-color:  rgba(7, 59, 76, 0.445);
+    height: 350px;
+    width: 45%;
+    padding: 0px 8px;
+    margin: auto;
+}
+#city{
+    font-weight: 500; 
+    text-align: center; 
+    font-size: 1.2em;
+}
+#temp{
+    font-size: 5em; 
+    font-weight: 550; 
+    color: #F4A261;
+}
+output{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    font-size: 0.9em;
+}
+button, input{
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#message > p{
+    text-align: center;
+    font-weight: 500;
+}
+#top-section{
+    margin: 5px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: #F4A261;
+    color: black;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1032px){
+    main > section{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    main > section{
+        width: 70%;
+        height: 400px;
+    }
+    #top-section{
+        display: block;
+        text-align: center;
+    }
+    #top-section > button{
+        width: 70%;
+    }
+    #search-bar{
+        margin-top: 8px;
+    }
+    #search-bar input{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 468px){
+    output{
+        font-size: small;
+    }
+    #city{
+        font-size: small;
+    }
+}

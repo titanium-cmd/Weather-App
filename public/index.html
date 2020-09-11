@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart It</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <meta name="Description" content="
+    A weather App built by Isaac for Smash it to check whether events that is 
+    to be held at NYC would come on or not.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F4A261">
+    <meta name="apple-mobile-web-app-title" content="Weather PWA">
+    <meta name="theme-color" content="#F4A261" />
+    <link rel="apple-touch-icon" href="/images/icons/logo.png">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <section>
+                <section id="top-section">
+                    <button>Get Current City</button>
+                    <div id="search-bar">
+                        <label for="searchBox"></label><input id="searchBox" type="search" placeholder="Search city" />
+                        <button>Search</button>
+                    </div>
+                </section>
+                <hr/>
+                <section id="message">
+                    <p></p>
+                </section>
+                <section id="details" style="text-align: center;">
+                    <p id="city"></p>
+                    <output id="temp"></output>
+                    <output>
+                        <img id="icon" alt="temp_icon"/>
+                        <span id="main"></span>
+                    </output>
+                </section>
+            </section>
+        </main>
+    </div>
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

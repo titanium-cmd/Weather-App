@@ -1,0 +1,42 @@
+{
+    "name": "Smash It Weather App", 
+    "short_name": "WeatherApp", 
+    "start_url": "/index.html", 
+    "display": "standalone", 
+    "background_color": "#ffffff",
+    "theme_color": "#F4A261",
+    "orientation": "portrait-primary", 
+    "icons": [
+        {
+        "src": "/images/icons/logo.png",
+          "sizes": "128x128",
+          "type": "image/png", 
+          "purpose": "maskable"
+        }, {
+          "src": "/images/icons/logo.png",
+          "sizes": "144x144",
+          "type": "image/png", 
+          "purpose": "maskable"
+        }, {
+          "src": "/images/icons/logo.png",
+          "sizes": "152x152",
+          "type": "image/png", 
+          "purpose": "maskable"
+        }, {
+          "src": "/images/icons/logo.png",
+          "sizes": "192x192",
+          "type": "image/png", 
+          "purpose": "maskable"
+        }, {
+          "src": "/images/icons/logo.png",
+          "sizes": "256x256",
+          "type": "image/png", 
+          "purpose": "maskable"
+        }, {
+          "src": "/images/icons/logo.png",
+          "sizes": "512x512",
+          "type": "image/png", 
+          "purpose": "maskable"
+        }
+    ]
+}
