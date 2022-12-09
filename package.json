@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A pwa weather app built in vanilla javascript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node public/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titanium-cmd/Weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/titanium-cmd/Weather-App/issues"
+  },
+  "homepage": "https://github.com/titanium-cmd/Weather-App#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

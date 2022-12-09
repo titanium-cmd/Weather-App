@@ -1,9 +1,11 @@
-window.addEventListener('load', ()=>{
+require('dotenv').config();
+
+window.addEventListener('load', () => {
     const getLocBtn = document.querySelector('#top-section > button');
     const searchBtn = document.querySelector('#search-bar > button');
     const searchBox = document.querySelector('#search-bar > input');
     const BASE_URL = `https://api.openweathermap.org/data/2.5/weather`;
-    const API_KEY = ''; //Enter API KEY here...
+    const API_KEY = process.env.API_KEY;
     getCurrentWeather(BASE_URL, API_KEY);
 
     getLocBtn.addEventListener("click", ()=>{
