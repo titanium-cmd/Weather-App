@@ -3,7 +3,7 @@ window.addEventListener('load', ()=>{
     const searchBtn = document.querySelector('#search-bar > button');
     const searchBox = document.querySelector('#search-bar > input');
     const BASE_URL = `https://api.openweathermap.org/data/2.5/weather`;
-    const API_KEY = 'eb0a59e5a9220a6b8cd53e09cbdfd98a';
+    const API_KEY = '';
     getCurrentWeather(BASE_URL, API_KEY);
 
     getLocBtn.addEventListener("click", ()=>{
